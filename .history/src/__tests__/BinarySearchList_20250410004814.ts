@@ -1,6 +1,6 @@
 import binary_fn from "@code/BinarySearchList"
 
-export default function bs_list(haystack:Number[], needle:Number): Boolean{
+export default function bs_list() {haystack:Number[], needle:Number): Boolean{
     let low = 0 ; 
     let high = haystack.length;
     do{
